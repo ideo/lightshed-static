@@ -1,0 +1,97 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$site-height: 800px;
+$tiny-margin: 10px;
+$smallish-margin: 20px;
+$small-margin: 30px;
+$large-margin: 100px;
+$box_padding: 30px;
+$normal-font-size: 14px;
+$normal-line-height:20px;
+$font-size-2: 28px;
+$line-height-2: 36px;
+$font-size-3: 24px;
+$line-height-3: 30px;
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .grid_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+
+/*-----------------------------------------------------------------------------
+TYPE STYLES
+-----------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Mark-Bold';
+    src: url('../../fonts/mark-bold-webfont.eot');
+    src: url('../../fonts/mark-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/mark-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/mark-bold-webfont.woff') format('woff'),
+         url('../../fonts/mark-bold-webfont.ttf') format('truetype'),
+         url('../../fonts/mark-bold-webfont.svg#markbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mark-Heavy';
+  src: url('../../fonts/mark-heavy-webfont.eot');
+  src: url('../../fonts/mark-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/mark-heavy-webfont.woff2') format('woff2'),
+       url('../../fonts/mark-heavy-webfont.woff') format('woff'),
+       url('../../fonts/mark-heavy-webfont.ttf') format('truetype'),
+       url('../../fonts/mark-heavy-webfont.svg#markheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'bitterregular';
+    src: url('../../fonts/bitter-regular-webfont.eot');
+    src: url('../../fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/bitter-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/bitter-regular-webfont.woff') format('woff'),
+         url('../../fonts/bitter-regular-webfont.ttf') format('truetype'),
+         url('../../fonts/bitter-regular-webfont.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bitteritalic';
+    src: url('../../fonts/bitter-italic-webfont.eot');
+    src: url('../../fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/bitter-italic-webfont.woff2') format('woff2'),
+         url('../../fonts/bitter-italic-webfont.woff') format('woff'),
+         url('../../fonts/bitter-italic-webfont.ttf') format('truetype'),
+         url('../../fonts/bitter-italic-webfont.svg#bitteritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*-----------------------------------------------------------------------------
+END TYPE STYLES
+-----------------------------------------------------------------------------*/

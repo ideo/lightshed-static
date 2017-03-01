@@ -1,0 +1,198 @@
+/*-----------------------------------------------------------------------------
+TYPE STYLES
+-----------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Mark-Bold';
+  src: url("../../fonts/mark-bold-webfont.eot");
+  src: url("../../fonts/mark-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/mark-bold-webfont.woff2") format("woff2"), url("../../fonts/mark-bold-webfont.woff") format("woff"), url("../../fonts/mark-bold-webfont.ttf") format("truetype"), url("../../fonts/mark-bold-webfont.svg#markbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Mark-Heavy';
+  src: url("../../fonts/mark-heavy-webfont.eot");
+  src: url("../../fonts/mark-heavy-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/mark-heavy-webfont.woff2") format("woff2"), url("../../fonts/mark-heavy-webfont.woff") format("woff"), url("../../fonts/mark-heavy-webfont.ttf") format("truetype"), url("../../fonts/mark-heavy-webfont.svg#markheavy") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'bitterregular';
+  src: url("../../fonts/bitter-regular-webfont.eot");
+  src: url("../../fonts/bitter-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/bitter-regular-webfont.woff2") format("woff2"), url("../../fonts/bitter-regular-webfont.woff") format("woff"), url("../../fonts/bitter-regular-webfont.ttf") format("truetype"), url("../../fonts/bitter-regular-webfont.svg#bitterregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'bitteritalic';
+  src: url("../../fonts/bitter-italic-webfont.eot");
+  src: url("../../fonts/bitter-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/bitter-italic-webfont.woff2") format("woff2"), url("../../fonts/bitter-italic-webfont.woff") format("woff"), url("../../fonts/bitter-italic-webfont.ttf") format("truetype"), url("../../fonts/bitter-italic-webfont.svg#bitteritalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*-----------------------------------------------------------------------------
+END TYPE STYLES
+-----------------------------------------------------------------------------*/
+/* ----------- Most Mobile Devices ----------- */
+@media only screen and (max-width: 768px) {
+  .chapter_paragraph {
+    font-size: 17px;
+    line-height: 21px; }
+
+  .chapter_title {
+    font-size: 22px;
+    line-height: 26px; }
+
+  .owl-item .social_title {
+    margin-bottom: 30px; }
+
+  .owl-item .mobile_section_spacing {
+    top: 70px;
+    transform: translate(0, 0%);
+    transform: translate3d(0, 0, 0);
+    margin: 0 auto; }
+
+  .owl-carousel .owl-item .title_section .arrow_right_home {
+    display: block; }
+
+  .mobile_margin_bottom {
+    margin-bottom: 50px; }
+
+  .hamburger {
+    display: inline-block; }
+
+  .nav_arrow_container {
+    display: none; }
+
+  .lightshed_logo_container {
+    text-align: left; }
+    .lightshed_logo_container .logo {
+      width: 70px; }
+
+  .site_nav {
+    opacity: 1; }
+    .site_nav.show {
+      opacity: 1; }
+
+  .horiz_background {
+    position: fixed;
+    z-index: 10;
+    background: transparent;
+    background-repeat: repeat-x;
+    transition: opacity 3.5s ease-out;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 1000px; }
+
+  .chapter_title.huge_margin_bottom {
+    margin-bottom: 30px; }
+
+  .owl-carousel .owl-item .impact_image {
+    margin-bottom: 30px;
+    max-width: 50px;
+    height: auto;
+    float: left; }
+
+  .full_width_mobile {
+    width: 100%; }
+
+  .rule_top {
+    border-top: 0px solid white;
+    color: white;
+    margin-left: 70px;
+    padding-top: 0; }
+
+  .partner_logos_container {
+    margin-bottom: 100px; }
+
+  .highlight_box .future_paragraph {
+    font-size: 14px;
+    line-height: 18px; }
+
+  .owl-item {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; }
+
+  .bleed_me {
+    margin-left: 0px; }
+
+  .bleed_me_small {
+    margin-left: inherit; }
+
+  .foreground {
+    top: 0; }
+
+  .nav_items_container {
+    display: none; }
+
+  .height_0, .height_1, .height_2, .height_3, .height_4 {
+    top: auto;
+    margin-bottom: 30px; }
+
+  .full_height_col {
+    height: auto; }
+
+  .quote_pull_right {
+    margin-left: 0; }
+
+  .quote {
+    display: none; }
+
+  .endorse {
+    display: none; }
+
+  .no_right_padding {
+    padding-right: 15px; }
+
+  .film_section .grid_images_container {
+    margin: 0 15px 100px 15px;
+    padding-top: 0px; }
+
+  .title {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    margin: 20px 0; }
+
+  .location {
+    display: none; }
+
+  .owl-carousel .owl-item .mobile_only_image {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto; }
+
+  .subtitle {
+    font-size: 15px;
+    margin-bottom: 5px; }
+
+  .year {
+    font-size: 15px; }
+
+  .film_blurb {
+    margin-top: 15px; }
+
+  .hide_on_mobile {
+    display: none; }
+
+  .dynamic_margin_bottom {
+    margin-bottom: 10px; }
+
+  .dynamic_large_margin_top {
+    margin-top: 10px; }
+
+  .watch_button {
+    margin: 10px 0 30px 0; }
+
+  .full_height_section {
+    height: 100vh; }
+
+  .solid_block {
+    background: white;
+    color: #4A4A4A;
+    height: 69%;
+    font-size: 30px;
+    padding: 20px;
+    width: 800px; }
+    .solid_block.small {
+      width: 100%;
+      font-size: 14px; } }
+
+/*# sourceMappingURL=mobile.css.map */

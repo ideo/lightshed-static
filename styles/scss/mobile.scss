@@ -1,0 +1,225 @@
+@import "shared";
+
+/* ----------- Most Mobile Devices ----------- */
+
+@media only screen and (max-width: 768px) {
+
+  .chapter_paragraph {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .chapter_title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .owl-item .social_title {
+    margin-bottom: $small-margin;
+  }
+
+  .owl-item .mobile_section_spacing {
+    top: 70px;
+    transform: translate(0,0%); // IE9
+    transform: translate3d(0,0,0); // Modern Browsers - better performance
+    margin: 0 auto;
+  }
+
+  .owl-carousel .owl-item .title_section {
+    .arrow_right_home {
+      display: block;
+    }
+  }
+
+  .mobile_margin_bottom {
+    margin-bottom: 50px;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+
+  .nav_arrow_container {
+    display: none;
+  }
+
+  .lightshed_logo_container {
+    text-align: left;
+
+    .logo {
+      width: 70px;
+    }
+  }
+
+  .site_nav {
+    opacity: 1;
+
+    &.show {
+      opacity: 1;
+    }
+
+  }
+
+  .horiz_background {
+    position: fixed;
+    z-index: 10;
+    // background: transparent url('../images/clouds_pano_2.jpg') 0 0 repeat-x;
+    background: transparent;
+    background-repeat: repeat-x;
+    transition: opacity 3.5s ease-out;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 1000px;
+  }
+
+  .chapter_title {
+    &.huge_margin_bottom {
+      margin-bottom: $small-margin;
+    }
+  }
+
+  .owl-carousel .owl-item .impact_image {
+    margin-bottom: $small-margin;
+    max-width: 50px;
+    height: auto;
+    float: left;
+  }
+
+  .full_width_mobile {
+    width: 100%;
+  }
+
+  .rule_top {
+    border-top: 0px solid white;
+    color: white;
+    margin-left: 70px;
+    padding-top: 0;
+  }
+
+  .partner_logos_container {
+    margin-bottom: $large-margin;
+  }
+
+  .highlight_box  .future_paragraph {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .owl-item {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .bleed_me {
+    margin-left: 0px;
+  }
+
+  .bleed_me_small {
+    margin-left: inherit;
+  }
+
+  .foreground {
+    top: 0;
+  }
+
+  .nav_items_container {
+    display: none;
+  }
+
+  .height_0, .height_1, .height_2, .height_3, .height_4 {
+    top: auto;
+    margin-bottom: 30px;
+  }
+
+  .full_height_col {
+    height: auto;
+  }
+
+  .quote_pull_right {
+    margin-left: 0;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .endorse {
+    display:none;
+  }
+
+  .no_right_padding {
+    padding-right: 15px;
+  }
+
+  .film_section .grid_images_container {
+    margin: 0 15px $large-margin 15px;
+    padding-top: 0px;
+  }
+
+  .title {
+    font-size: $font-size-3;
+    line-height: $font-size-3;
+    text-align: left;
+    margin: 20px 0;
+  }
+
+  .location {
+    display: none;
+  }
+
+  .owl-carousel .owl-item .mobile_only_image {
+    display: inline-block;
+    margin-bottom: $small-margin;
+    width: 100%;
+    height: auto;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .year {
+    font-size: 15px;
+  }
+
+  .film_blurb {
+    margin-top: 15px;
+  }
+
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .dynamic_margin_bottom {
+    margin-bottom: $tiny-margin; 
+  }
+
+  .dynamic_large_margin_top {
+    margin-top: $tiny-margin;
+  }
+
+  .watch_button {
+    margin: 10px 0 30px 0;
+  }
+
+  .full_height_section {
+    height: 100vh;
+  }
+
+  .solid_block {
+    background: white;
+    color: #4A4A4A;
+    height: 69%;
+    font-size: 30px;
+    padding: 20px;
+    width: 800px;
+
+    &.small {
+      width: 100%;
+      font-size: $normal-font-size;
+    }
+  }
+
+}
